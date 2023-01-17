@@ -1,16 +1,16 @@
 html{
- font-size:70px;
+ font-size:30px;
 }
 
  
 
 
 box{
-  font-size:70px;
+  font-size:30px;
 }
 
 p{
-  font-size:6rem;
+  font-size:1rem;
   border:0.1rem black solid;
   padding: 1rem;
 }
