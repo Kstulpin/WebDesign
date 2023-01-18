@@ -1,20 +1,26 @@
-html{
- font-size:20px
-}
- 
-p{
-  font-size:2rem;
+header{
+  font-size: 30px;
 }
 
-
-p{
-  font-size:1em;
+nav{
+  font-size:3em;
 }
 
-p{
-  font-size:50%;
+section{
+  font-size:1rem;
 }
-  
+
+aside{
+  font-size:200%;
+}
+
+article{
+  ;
+}
+
+footer{
+  font-size:24pt;
+}
  
 
 
