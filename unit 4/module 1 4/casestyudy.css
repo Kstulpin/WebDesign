@@ -1,0 +1,18 @@
+body {
+    background-color: #f2e2b3;
+    font-family: sans-serif;
+}
+h1 {
+    color: #3e2f14;
+}
+nav a {
+    color: #5b8d47;
+    font-weight: bold;
+}
+p {
+    color: #78a6d2;
+}
+.accent {
+    color: #9456be;
+    font-weight: bold;
+}
