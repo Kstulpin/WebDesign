@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AdvancedT</title>
+    <style>
+      .style1 {
+        background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .style2 {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00e6e6, 0 0 70px #00e6e6, 0 0 80px #00e6e6, 0 0 100px #00e6e6, 0 0 150px #00e6e6, 0 0 200px #00e6e6;
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      
+      .style3 {
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+      }
+      
+      .style3:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+        left: 0;
+        bottom: -5px;
+        z-index: -1;
+        animation: underline 2s infinite;
+      }
+      
+      @keyframes underline {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      
+      .style4 {
+        text-shadow: 1px 1px 0 #fff, 2px 2px 0 #fff, 3px 3px 0 #fff, 4px 4px 0 #00e6e6, 4px 4px 0 #00e6e6, 4px 4px 0 #00e6e6, 4px 4px 0 #00e6e6, 4px 4px 10px rgba(0,0,0,0.5);
+        color: #fff;
+        font-weight: bold;
+        font-size: 3rem;
+        transform: rotate(-20deg) skew(10deg);
+      }
+      
+      .style5 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 0 0 5px #00e6e6, 0 0 15px #00e6e6, 0 0 20px #00e6e6, 0 0 25px #00e6e6, 0 0 30px #00e6e6, 0 0 40px #00e6e6, 0 0 50px #00e6e6;
+        animation: neon 1.5s ease-in
