@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relational Selector</title>
+    <style>
+      section p {
+        font-size: 18px;
+        color: #333;
+      }
+
+      h1 + p {
+        font-size: 16px;
+        color: #555;
+        margin-top: 0;
+      }
+
+      /* Child Selector */
+      section > p {
+        font-weight: bold;
+      }
+
+      h1 ~ p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Relational Selectors </h1>
+    <section>
+      <p>This paragraph is inside a section.</p>
+      <div>
+        <p>This paragraph is nested inside a div and a section.</p>
+      </div>
+    </section>
+    <h1>Another Heading</h1>
+    <p>This paragraph comes after the previous heading.</p>
+    <p>This paragraph is also after the previous heading.</p>
+    <h2>Yet Another Heading</h2>
+    <p>This paragraph is after a different heading.</p>
+  </body>
+</html>
