@@ -1,0 +1,59 @@
+/* Styling the "x"s to create the smiley face */
+
+/* Type Selector */
+div {
+  box-sizing: border-box;
+}
+
+/* Class Selector */
+.smiley-face {
+  width: 200px;
+  height: 200px;
+  background-color: #FDEE00;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Relational Selector */
+.eyes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Class Selector */
+.left-eye,
+.right-eye {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.right-eye {
+  margin-left: 20px;
+}
+
+.mouth {
+  width: 80px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mouth-open {
+  height: 80px;
+  border-radius: 0 0 50% 50%;
+  transform: translate(-50%, -20%);
+}
+
+.left-eye, .right-eye, .mouth {
+  background-color: #fff;
+}
