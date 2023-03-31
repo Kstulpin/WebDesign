@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Link Pseudo-Classes Demo</title>
+	<style>
+		a:link {
+			color: blue;
+			text-decoration: underline;
+		}
+
+		a:visited {
+			color: purple;
+		}
+
+		a:hover {
+			background-color: yellow;
+		}
+
+		a:active {
+			color: red;
+		}
+
+		a:focus {
+			outline: 2px solid green;
+		}
+	</style>
+</head>
+<body>
+	<p><a href="#">Normal link</a></p>
+	<p><a href="#" visited>Visited link</a></p>
+	<p><a href="#" class="hover">Hover over me!</a></p>
+	<p><a href="#" class="active">Click!</a></p>
+	<p><a href="#" class="focus">Focus!</a></p>
+</body>
+</html>
